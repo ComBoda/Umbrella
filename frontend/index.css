@@ -72,6 +72,7 @@
     @apply border-border;
   }
   body {
+    background-image: url("/frontend/assets/placeholders/TheEconomics_Umbrella_kh_bg_06.jpg");
     @apply bg-background text-foreground;
   }
 }
