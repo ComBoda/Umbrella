@@ -5,11 +5,11 @@ import Placeholder4 from "@/assets/placeholders/TheEconomics_Umbrella_kh_04.jpg"
 import Placeholder5 from "@/assets/placeholders/TheEconomics_Umbrella_kh_05.jpg";
 import Placeholder6 from "@/assets/placeholders/TheEconomics_Umbrella_kh_06.jpg";
 import Placeholder7 from "@/assets/placeholders/TheEconomics_Umbrella_kh_07.jpg";
-#import Placeholder8 from "@/assets/placeholders/TheEconomics_Umbrella_kh_08.jpg";
-#import Placeholder9 from "@/assets/placeholders/TheEconomics_Umbrella_kh_09.jpg";
-#import Placeholder10 from "@/assets/placeholders/TheEconomics_Umbrella_kh_10.jpg";
-#import Placeholder11 from "@/assets/placeholders/TheEconomics_Umbrella_kh_11.jpg";
-#import Placeholder12 from "@/assets/placeholders/TheEconomics_Umbrella_kh_12.jpg";
+import Placeholder8 from "@/assets/placeholders/TheEconomics_Umbrella_kh_08.jpg";
+import Placeholder9 from "@/assets/placeholders/TheEconomics_Umbrella_kh_09.jpg";
+import Placeholder10 from "@/assets/placeholders/TheEconomics_Umbrella_kh_10.jpg";
+import Placeholder11 from "@/assets/placeholders/TheEconomics_Umbrella_kh_11.jpg";
+import Placeholder12 from "@/assets/placeholders/TheEconomics_Umbrella_kh_12.jpg";
 
 import { COLLECTION_ADDRESS } from "./constants";
 
@@ -35,7 +35,7 @@ export const config: Config = {
     description:
       "Cambodia ltd Mint umbrella the Economics #KH #AIRDROP",
     discordLink: "https://discord.com",
-    images: [Placeholder1, Placeholder2, Placeholder3, Placeholder4, Placeholder5, Placeholder6, Placeholder7],
+    images: [Placeholder1, Placeholder2, Placeholder3, Placeholder4, Placeholder5, Placeholder6, Placeholder7, Placeholder8, Placeholder9, Placeholder10, Placeholder11, Placeholder12],
   },
 
   ourTeam: {
@@ -88,10 +88,51 @@ export const config: Config = {
         socials: {
           twitter: "https://twitter.com",
         },
+        },
         {
         name: "Umbr#7",
         role: "Aliquip Esse",
         img: Placeholder7,
+        socials: {
+          twitter: "https://twitter.com",
+        },
+      },
+      {
+        name: "Umbr#8",
+        role: "Aliquip Esse",
+        img: Placeholder8,
+        socials: {
+          twitter: "https://twitter.com",
+        },
+      },
+      {
+        name: "Umbr#9",
+        role: "Aliquip Esse",
+        img: Placeholder9,
+        socials: {
+          twitter: "https://twitter.com",
+        },
+      },
+       {
+        name: "Umbr#10",
+        role: "Aliquip Esse",
+        img: Placeholder10,
+        socials: {
+          twitter: "https://twitter.com",
+        },
+      },
+       {
+        name: "Umbr#11",
+        role: "Aliquip Esse",
+        img: Placeholder11,
+        socials: {
+          twitter: "https://twitter.com",
+        },
+      },
+       {
+        name: "Umbr#12",
+        role: "Aliquip Esse",
+        img: Placeholder12,
         socials: {
           twitter: "https://twitter.com",
         },
@@ -113,7 +154,7 @@ export const config: Config = {
     ],
   },
 
-  nftBanner: [Placeholder1, Placeholder2, Placeholder3, Placeholder4, Placeholder5, Placeholder6, Placeholder7],
+  nftBanner: [Placeholder1, Placeholder2, Placeholder3, Placeholder4, Placeholder5, Placeholder6, Placeholder7, Placeholder8, Placeholder9, Placeholder10, Placeholder11, Placeholder12],
 };
 
 export interface Config {
