@@ -5,11 +5,11 @@ import Placeholder4 from "@/assets/placeholders/TheEconomics_Umbrella_kh_04.jpg"
 import Placeholder5 from "@/assets/placeholders/TheEconomics_Umbrella_kh_05.jpg";
 import Placeholder6 from "@/assets/placeholders/TheEconomics_Umbrella_kh_06.jpg";
 import Placeholder7 from "@/assets/placeholders/TheEconomics_Umbrella_kh_07.jpg";
-import Placeholder8 from "@/assets/placeholders/TheEconomics_Umbrella_kh_08.jpg";
-import Placeholder9 from "@/assets/placeholders/TheEconomics_Umbrella_kh_09.jpg";
-import Placeholder10 from "@/assets/placeholders/TheEconomics_Umbrella_kh_10.jpg";
-import Placeholder11 from "@/assets/placeholders/TheEconomics_Umbrella_kh_11.jpg";
-import Placeholder12 from "@/assets/placeholders/TheEconomics_Umbrella_kh_12.jpg";
+#import Placeholder8 from "@/assets/placeholders/TheEconomics_Umbrella_kh_08.jpg";
+#import Placeholder9 from "@/assets/placeholders/TheEconomics_Umbrella_kh_09.jpg";
+#import Placeholder10 from "@/assets/placeholders/TheEconomics_Umbrella_kh_10.jpg";
+#import Placeholder11 from "@/assets/placeholders/TheEconomics_Umbrella_kh_11.jpg";
+#import Placeholder12 from "@/assets/placeholders/TheEconomics_Umbrella_kh_12.jpg";
 
 import { COLLECTION_ADDRESS } from "./constants";
 
@@ -85,6 +85,13 @@ export const config: Config = {
         name: "Umbr#6",
         role: "Aliquip Esse",
         img: Placeholder6,
+        socials: {
+          twitter: "https://twitter.com",
+        },
+        {
+        name: "Umbr#7",
+        role: "Aliquip Esse",
+        img: Placeholder7,
         socials: {
           twitter: "https://twitter.com",
         },
