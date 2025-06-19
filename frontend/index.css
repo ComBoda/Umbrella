@@ -4,7 +4,20 @@
 .w-full {
     width: 60%;
 }
-
+.bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* height: 100%; */
+    content: url('/frontend/assets/placeholders/TheEconomics_Umbrella_kh_bg_02.jpg');
+    width: 100%;
+    opacity: 0.6;
+    padding: 0;
+    margin: 0;
+    z-index: -1;
+    position: absolute;
+}
 @layer base {
   :root {
     --background: 0 0% 100%;
